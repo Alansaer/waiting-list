@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Queue</title>
+  <%= stylesheet_link_tag "application", media: "all" %>
+
+  <div class="panel panel-heading" style="background-color:#659EC7">
+    <h1 class="text-center" style="color:#E5E4E2">Queue</h1>
+  </div>
+</head>
+
+<body>
+
+  <!-- Div section for the table for the guestlists of guests -->
+  <style type="text/css">
+    .queue_table {
+      margin-left: auto;
+      margin-right: auto;
+      margin: 50px;
+      width: 300px;
+    }
+  </style>
+  <div align="center"> <div class="queue_table" align="center">
+    <table class="table table-hover" align="center">
+      
+      <thead align="center">
+        <tr> <th> </th> </tr>
+      </thead>
+
+      <tbody>
+
+        <!-- If there are no more guests -->
+        <% if @guestlist.empty? -%>
+          <tr> 
+            <h4> <td align="center"> There are no guests. </td> </h4>
+          </tr>
+
+        <!-- If there are guests, display each one -->
+        <% else -%>
+          <% @guestlist.each do |guest| -%>
+            <tr>
+              <td align="center"> 
+                <h4>
+                  <%= link_to guest.fname + ' ' +  guest.lname, controller: "guestlists", action: "show", id: guest.id %>
+                </h4>
+              </td>
+            </tr>
+          <% end %>
+        <% end -%>
+
+      </tbody>
+
+    </table>
+  </div> </div>
+
+</body>
+
+</html>

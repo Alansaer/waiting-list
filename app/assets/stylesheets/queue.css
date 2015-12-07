@@ -1,0 +1,9 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+text_area {
+  padding-left: 50px;
+  padding-right: 50px;
+}

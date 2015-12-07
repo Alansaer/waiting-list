@@ -1,0 +1,111 @@
+   743.8: flog total
+    11.1: flog/method average
+
+   235.9: Then total
+    44.9: Then#/^the "([^"]*)" field should have the error "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:165
+    26.6: Then#/^the "([^"]*)" field should have no error$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:196
+    18.8: Then#/^the "([^\"]*)" field should contain "([^\"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/4c_user_email_display.rb:1
+    16.9: Then#/^(?:|I )should have the following query string:$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:239
+    14.0: Then#/^the "([^"]*)" field(?: within (.*))? should contain "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:141
+    14.0: Then#/^the "([^"]*)" field(?: within (.*))? should not contain "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:153
+    13.8: Then#/^(?:|I )should see \/([^\/]*)\/$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:113
+    13.8: Then#/^(?:|I )should not see \/([^\/]*)\/$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:131
+    12.6: Then#/^the "([^"]*)" checkbox(?: within (.*))? should not be checked$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:219
+    11.8: Then#/^(?:|I )should see "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:105
+    11.8: Then#/^(?:|I )should not see "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:123
+    11.0: Then#/^the "([^"]*)" checkbox(?: within (.*))? should be checked$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:208
+     8.4: Then#/^I should see "([^"]*)" in the "(.*?)" field/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/new_user_entry.rb:3
+     6.3: Then#/the queue should include the following item: "(.*)"/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/2i_add_new_user_to_queue.rb:17
+     4.6: Then#/^I should print out the raw HTML$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/home_page.rb:8
+     3.5: Then#/^(?:|I )should be on (.+)$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/1d_new_user_create.rb:1
+     2.2: Then#/^show me the page$/        /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:252
+     1.0: Then#/^The user data should be in the database$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/2h_add_user_steps.rb:1
+
+   228.5: main total
+   228.5: main#none
+
+    62.6: describe(POST create)::it total
+    25.3: describe(POST create)::it#should have valid params /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:18
+    16.0: describe(POST create)::it#assigns @guest and does Guestlist.create /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:29
+    11.6: describe(POST create)::it#assigns @user and does User.create /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:24
+     9.7: describe(POST create)::it#renders the index template /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:34
+
+    36.6: When total
+     4.8: When#/^(?:|I )fill in the following:$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:79
+     3.6: When#/^(.*) within (.*[^:])$/    /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:35
+     3.6: When#/^(.*) within (.*[^:]):$/   /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:40
+     3.5: When#/^(?:|I )go to (.+)$/       /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:48
+     3.5: When#/^(?:|I )attach the file "([^"]*)" to "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:101
+     2.2: When#/^(?:|I )press "([^"]*)"$/  /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:52
+     2.2: When#/^(?:|I )follow "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:56
+     2.2: When#/^(?:|I )fill in "([^"]*)" with "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:60
+     2.2: When#/^(?:|I )fill in "([^"]*)" for "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:64
+     2.2: When#/^(?:|I )select "([^"]*)" from "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:85
+     2.2: When#/^(?:|I )check "([^"]*)"$/  /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:89
+     2.2: When#/^(?:|I )uncheck "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:93
+     2.2: When#/^(?:|I )choose "([^"]*)"$/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:97
+
+    34.3: describe(POST create_to_queue)::it total
+    13.0: describe(POST create_to_queue)::it#should call valid_email? /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:46
+    11.6: describe(POST create_to_queue)::it#should set @user /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:41
+     9.7: describe(POST create_to_queue)::it#renders the index template /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:56
+
+    27.2: UsersController total
+     9.9: UsersController#create_to_queue  /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/app/controllers/users_controller.rb:6
+     7.1: UsersController#create           /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/app/controllers/users_controller.rb:24
+     3.6: UsersController#new_user_params  /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/app/controllers/users_controller.rb:37
+     3.0: UsersController#none
+     2.2: UsersController#existing_user_params /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/app/controllers/users_controller.rb:32
+     1.4: UsersController#new              /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/app/controllers/users_controller.rb:19
+
+    23.2: And total
+    10.8: And#/the following users exist/  /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/2i_add_new_user_to_queue.rb:3
+     7.8: And#/the following queue items exist/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/2i_add_new_user_to_queue.rb:10
+     4.6: And#/^type "([^\"]*)" in "([^\"]*)"/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/1e_Existing_User_Queue.rb:1
+
+    19.4: describe(GET new)::it total
+     9.7: describe(GET new)::it#assigns @user /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:6
+     9.7: describe(GET new)::it#renders the new template /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:11
+
+    15.1: NavigationHelpers total
+    15.1: NavigationHelpers#path_to        /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/support/paths.rb:13
+
+    12.8: create_table total
+     7.7: create_table#users               /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/db/schema.rb:22
+     5.1: create_table#guestlists          /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/db/schema.rb:16
+
+    10.6: SetupTables total
+    10.6: SetupTables#change               /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/db/migrate/20151106224333_setup_tables.rb:2
+
+     9.2: Given total
+     5.7: Given#/the following emails exist/ /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/1c_existing_user_email_verification.rb:1
+     3.5: Given#/^(?:|I )am on (.+)$/      /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:44
+
+     5.6: WithinHelpers total
+     5.6: WithinHelpers#with_scope         /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/step_definitions/web_steps.rb:28
+
+     4.4: HtmlSelectorsHelpers total
+     4.4: HtmlSelectorsHelpers#selector_for /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/features/support/selectors.rb:13
+
+     4.0: User total
+     4.0: User::valid_email?               /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/app/models/user.rb:2
+
+     3.9: describe total
+     1.3: describe#GET new                 /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:5
+     1.3: describe#POST create             /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:17
+     1.3: describe#POST create_to_queue    /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/spec/controllers/users_controller_spec.rb:40
+
+     3.5: HomeControllerTest::test total
+     3.5: HomeControllerTest::test#should get index /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/test/controllers/home_controller_test.rb:4
+
+     2.6: Checkin::Application total
+     2.6: Checkin::Application#none
+
+     2.4: GuestlistsController total
+     2.4: GuestlistsController#index       /home/johns/documents/university-documents/2015fa/cs3300/Group3/checkin/app/controllers/guestlists_controller.rb:3
+
+     1.1: ActiveSupport::TestCase total
+     1.1: ActiveSupport::TestCase#none
+
+     1.0: ApplicationController total
+     1.0: ApplicationController#none

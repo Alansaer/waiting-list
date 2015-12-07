@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Check In</title>
+  <%= stylesheet_link_tag "application", media: "all" %>
+
+  <div class="panel panel-heading" style="background-color:#659EC7">
+    <h1 class="text-center" style="color:#E5E4E2">Welcome!</h1>
+  </div>
+</head>
+
+<br><br>
+
+<body onload="alertTimeout(5000)">
+  <!--Div section for existing user input text box-->
+  <div align="center">
+     <%= bootstrap_form_tag :url => 'users/adduser' do |f| %>
+       <%= f.email_field :email, :required => true, hide_label: true, placeholder:"Sign in with email", style:'width: 300px' %>
+       <%= f.submit "Login"%>
+       <%= "or" %>
+       <%= link_to "create an account", controller: "users", action: "new" %>
+     <% end %>
+ </div>
+  <div id="alert_placeholder" class="container">
+    <% flash.each do |key, value| %>
+        <div class="alert alert-<%= key %>" style="width: 500px; margin:0 auto; align-content: center"><%= value %></div>
+    <% end %>
+  </div>
+ <br><br><br>
+
+  <!--Div section for account creation button -->
+  <!--
+  <div class="text-center">
+    <h5>or register yourself here</h5> 
+    %= link_to new_user_path do %>
+      <button id="checkin" type="button" class="btn btn-default">New User</button>
+    % end %>
+  </div>
+  -->
+</body>
+</html>

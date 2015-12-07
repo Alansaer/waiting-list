@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New User</title>
+  <%= stylesheet_link_tag "application", media: "all" %>
+
+  <div class="panel panel-heading" style="background-color:#659EC7">
+    <h1 class="text-center" style="color:#E5E4E2">New User</h1>
+  </div>
+</head>
+
+<body>
+
+<div align="center">
+  <%= bootstrap_form_for(@user) do |f| %>
+    <%= f.text_field  :fname, :required => true, hide_label: true, placeholder: "First Name", style: 'width: 300px' %>
+    <%= f.text_field  :lname, :required => true, hide_label: true, placeholder: "Last Name",  style: 'width: 300px' %>
+    <%= f.email_field :email, :required => true, hide_label: true, placeholder: "Email",      style: 'width: 300px' %>
+    <%= f.submit "Sign In" %>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <%= link_to controller: "users", action: "index" do %>
+      <button id="Back" type="button" class="btn btn-default">Back</button>
+    <% end %>
+  <% end %>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<!-- The header for the Counselor Page -->
+<head>
+  <title>Counselor Page</title>
+  <%= stylesheet_link_tag "application", media: "all" %>
+
+  <!-- Guest's Name display -->
+  <div class="panel panel-heading" style="background-color:#659EC7">
+    <h1 class="text-center" style="color:#E5E4E2">
+      <%= @guestlist.fname + ' ' + @guestlist.lname %>
+    </h1>
+  </div>
+</head>
+
+<body>
+
+  <!-- Guest's name display -->
+  <div align="center">
+
+    <!-- Guest Email -->
+    <h4> <%= @guestlist.email %> </h4>
+
+  </div>
+
+  <br>
+
+  <!-- Notes text area, Finish button and Back button -->
+  <div align="center">
+    <%= bootstrap_form_for (@guestlist) do |f| %>
+      <%= f.text_area :notes, hide_label: true, placeholder:"Click to add notes", style:'width: 300px' %>
+      <%= f.submit "Finish" %>
+      <!-- because I suck at webdev -->
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <%= link_to guestlists_path do %> 
+        <button id="Back" type="button" class="btn btn-default">Back</button>
+      <% end %> 
+    <% end %>
+    
+</body>
